@@ -93,6 +93,7 @@ TARGET_KERNEL_VERSION := 4.19
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
+TARGET_USES_UM_4_19 := true
 BOARD_VENDOR := xiaomi
 
 # Partitions
