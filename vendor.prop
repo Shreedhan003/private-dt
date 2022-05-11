@@ -184,6 +184,7 @@ ro.crypto.volume.metadata.method=dm-default-key
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
 
 # DPM
 persist.vendor.dpm.feature=1
