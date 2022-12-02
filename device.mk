@@ -168,6 +168,10 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+# IFAA manager
+PRODUCT_PACKAGES += \
+    IFAAService
+
 # Init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
