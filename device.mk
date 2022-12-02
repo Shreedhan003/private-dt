@@ -125,6 +125,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.3.vendor
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
+
 # Fwk detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
@@ -176,7 +180,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.fingerprint.rc
 
 # IPACM
 PRODUCT_PACKAGES += \
