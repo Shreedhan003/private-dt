@@ -137,7 +137,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor
 
 PRODUCT_PACKAGES += \
-    libdrm
+    libdrm.vendor
 
 # Fastbootd
 PRODUCT_PACKAGES += \
