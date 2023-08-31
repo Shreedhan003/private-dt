@@ -360,6 +360,21 @@
     <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
     <bool name="config_telephony5gNonStandalone">true</bool>
 
+     <!-- Whether the new Auto Selection Network UI should be shown -->
+    <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
+
+     <!-- The number of volume steps for the notification stream -->
+    <integer name="config_audio_notif_vol_steps">15</integer>
+
+    <!-- The default volume for the notification stream -->
+    <integer name="config_audio_notif_vol_default">11</integer>
+
+    <!-- The number of volume steps for the ring stream -->
+    <integer name="config_audio_ring_vol_steps">15</integer>
+
+    <!-- The default volume for the ring stream -->
+    <integer name="config_audio_ring_vol_default">11</integer>
+
     <!-- List supported color modes. -->
     <integer-array name="config_availableColorModes">
         <item>0</item> <!-- COLOR_MODE_NATURAL -->
@@ -396,4 +411,5 @@
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
         <item>0</item> <!-- COLOR_MODE_DEFAULT -->
     </integer-array>
+
 </resources>
