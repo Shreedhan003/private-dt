@@ -65,4 +65,7 @@
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
     </string-array>
+
+<!-- Whether device has a notch -->
+    <bool name="config_haveNotch">true</bool>
 </resources>
