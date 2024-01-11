@@ -15,5 +15,8 @@
     
     <!-- Redmi Note 12 5G dimens.xml-->
     <dimen name="status_bar_height_default">94px</dimen>
+    <dimen name="CameraCircleBlackView_height">105px</dimen>
+    <dimen name="CameraCircleBlackView_radius">43px</dimen>
+    <dimen name="CameraCircleBlackView_width">1080px</dimen>
     
 </resources>
