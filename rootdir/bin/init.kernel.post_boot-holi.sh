@@ -245,6 +245,6 @@ configure_memory_parameters
 
 setprop vendor.post_boot.parsed 1
 
-# M17P_T code for HQ-290074 by zhouxinyi at 2023-03-27 start
+# M17_T code for HQ-288927 by zhouxinyi at 2023-03-10 start
 echo 0 > /proc/sys/vm/panic_on_oom
-# M17P_T code for HQ-290074 by zhouxinyi at 2023-03-27 end
+# M17_T code for HQ-288927 by zhouxinyi at 2023-03-10 end

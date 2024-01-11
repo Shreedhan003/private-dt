@@ -176,7 +176,7 @@ echo -6 > /sys/devices/system/cpu/cpu7/sched_load_boost
 echo 85 > /sys/devices/system/cpu/cpufreq/policy6/schedutil/hispeed_load
 
 # configure input boost settings
-echo "0:1516800" > /sys/devices/system/cpu/cpu_boost/input_boost_freq
+echo "0:1804800" > /sys/devices/system/cpu/cpu_boost/input_boost_freq
 echo 120 > /sys/devices/system/cpu/cpu_boost/input_boost_ms
 
 echo "0:1804800 1:0 2:0 3:0 4:0 5:0 6:2016000 7:0" > /sys/devices/system/cpu/cpu_boost/powerkey_input_boost_freq
@@ -247,6 +247,6 @@ configure_memory_parameters
 
 setprop vendor.post_boot.parsed 1
 
-# M17P_T code for HQ-290074 by zhouxinyi at 2023-03-27 start
+# M17_T code for HQ-288927 by zhouxinyi at 2023-03-10 start
 echo 0 > /proc/sys/vm/panic_on_oom
-# M17P_T code for HQ-290074 by zhouxinyi at 2023-03-27 end
+# M17_T code for HQ-288927 by zhouxinyi at 2023-03-10 end
