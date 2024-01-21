@@ -61,6 +61,9 @@ on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
     start logd
+    
+    #For Camera flash
+    chmod 666 /sys/module/camera/drivers/platform:CAM-FLASH-DRIVER/5c1b000.qcom,cci0:qcom,camera-flash@0/ktd2691_flash
 
 on early-fs
     start vold
