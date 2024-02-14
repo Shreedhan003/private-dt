@@ -14,6 +14,9 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 # Inherit from stone device
 $(call inherit-product, device/xiaomi/stone/device.mk)
 
+# Official VoltageOS
+VOLTAGE_BUILD_TYPE = OFFICIAL
+
 PRODUCT_NAME := voltage_stone
 PRODUCT_DEVICE := stone
 PRODUCT_MANUFACTURER := Xiaomi
